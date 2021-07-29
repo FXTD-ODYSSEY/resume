@@ -4,7 +4,7 @@ BasicInfo:
   Photo: avatar.jpg
   Contacts:
     - Icon: fas fa-phone
-      Info: 手机 +86 <a href="tel:18998459857">18998459857</a>
+      Info: 手机 <a href="tel:18998459857">+86 18998459857</a>
     - Icon: fas fa-envelope
       Info: 邮箱 <a href="mailto:820472580@qq.com">820472580@qq.com</a> 
     - Icon: fas fa-globe
@@ -76,18 +76,16 @@ Education:
     Details: Specialised in data analysis
 
 Skills:
-  - Family: Programming
+  - Family: 编程语言
     Items:
       - Python
-      - HTML (including Jinja)
+      - HTML
       - Javascript
       - CSS
-      - SASS
       - SQL
-      - C#
-      - Bash
-      - MATLAB
-  - Family: Frameworks
+      - AutoHotkey
+      - C++
+  - Family: 框架
     Items:
       - Django
       - Flask
@@ -99,34 +97,23 @@ Skills:
       - Docker
       - Jenkins
       - AWS
-  - Family: Misc
-    Items:
-      - Adobe Tools
-      - LaTeX
 
-Languages:
-  - Name: Portuguese
-    Level: Native
-  - Name: English
-    Level: C2
-  - Name: Spanish
-    Level: B1
-  - Name: German
-    Level: B1
+# Languages:
+#   - Name: Portuguese
+#     Level: Native
+#   - Name: English
+#     Level: C2
+#   - Name: Spanish
+#     Level: B1
+#   - Name: German
+#     Level: B1
 
 Diplomas:
-  - ISTQB Tester Certification (2019)
-  - English Cambridge CAE (2009)
+  - CET4 英语4级 (2016)
+  - CET6 英语6级 (2017)
 
 Interests:
-  - Bouldering
-  - Cooking
-  - Windsurfing
-  - Bossa Nova
-  - Design
-  - Languages
-  - Languages
-  - Languages
-  - Languages
-  - Languages
-  - Languages
+  - <li class="contact__item"><i class="fa fa-music" aria-hidden="true"></i> 音乐</li>
+  - <li class="contact__item"><i class="fa fa-street-view" aria-hidden="true"></i> 运动</li>
+  - <li class="contact__item"><i class="fa fa-play-circle" aria-hidden="true"></i> 动漫</li>
+  - <li class="contact__item"><i class="fa fa-flask" aria-hidden="true"></i> 研究</li>
