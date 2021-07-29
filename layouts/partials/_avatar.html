@@ -1,0 +1,8 @@
+{{ if .Site.Data.content.BasicInfo.Photo }}
+    <div class="sideSection avatar">
+        <div class="avatar__container">
+            <!-- 自定义照片格式 -->
+            <img class="avatar__img" src="{{ .Site.Data.content.BasicInfo.Photo }}" alt="photo of me" style="width: 100%;top: 70%;">
+        </div>
+    </div>
+{{ end }}

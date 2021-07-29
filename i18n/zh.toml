@@ -1,0 +1,20 @@
+[profile]
+other = "基本信息"
+
+[experience]
+other = "项目经历"
+
+[education]
+other = "教育背景"
+
+[skills]
+other = "技能"
+
+[languages]
+other = "语言"
+
+[diplomas]
+other = "学历"
+
+[interests]
+other = "兴趣爱好"

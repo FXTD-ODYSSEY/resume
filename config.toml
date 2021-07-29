@@ -1,0 +1,20 @@
+languageCode = "en-us"
+defaultContentLanguage = "zh"
+enableRobotsTXT = "true"
+enableEmoji = "true"
+
+theme = "almeida-cv"
+disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
+
+baseURL = "https://l0v0.com/"
+title = "梁伟添的个人简历"
+
+[params]
+colorDark = "#666"
+colorLight = "#fff"
+colorPageBackground = "#ddd"
+colorPrimary = "#99cdf4"
+colorPrimaryText = "#fff"
+colorRightColumnBackground = "#e6e6e6"
+colorSecondary = "#aaa"
+pages = 2
