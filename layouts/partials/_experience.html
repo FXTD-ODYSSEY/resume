@@ -1,0 +1,70 @@
+{{ if .Site.Data.content.Experience }}
+<div id="experience" class="section">
+    <div class="section__heading">
+        <h2 class="section__title">
+            <i class="icon fa fa-briefcase " aria-hidden="true"></i>
+            {{ i18n "experience" }}
+        </h2>
+    </div>
+    <div class="section__content">
+        <div class="experience">
+            {{ range .Site.Data.content.Experience }}
+            {{ $style := "display:block"}}
+            {{ if .Icon }}
+            {{ $style = ""}}
+            {{ end }}
+            <div class="experience__item">
+                <div class="experience__container" style="{{$style}}">
+                    {{ if .Icon }}
+                    <img src=" {{ .Icon | safeHTML }}" style="height: 35px;">
+                    {{ end }}
+                    <div class="experience__header">
+                        <h3 class="experience__company">
+                            {{ .Employer | safeHTML }}
+                        </h3>
+                        <h3 class="experience__place">{{ .Place | safeHTML }}</h3>
+                    </div>
+                </div>
+                {{ range .Positions }}
+                <div class="experience__job">
+                    <div class="experience__subheader">
+                        <h3 class="experience__position">
+                            {{ .Title | safeHTML}}
+                        </h3>
+                        <h3 class="experience__date">{{ .Date | safeHTML }}</h3>
+                    </div>
+                    <ul>
+                        {{ range .Details }}
+                        <li class="experience__bullet">{{ . }}</li>
+                        {{ end }}
+                    </ul>
+                    <div class="experience__badges">
+                        <ul>
+                            {{ range .Badges }}
+                            <li class="experience__badge">{{ . }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+<style>
+    .experience__container {
+        display: grid;
+        grid-template-columns: 1fr 10fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+            ". .";
+        padding-bottom: 5px;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+</style>
+{{ end }}

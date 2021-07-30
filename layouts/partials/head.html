@@ -6,7 +6,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/all.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    {{- $progressCSS := resources.Get "css/progress.css"| minify | fingerprint }}
+    <link rel="stylesheet" href="{{$progressCSS.RelPermalink}}">
+
+
 
     {{- $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "style.main.scss" . | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous" media="screen,print" />
@@ -25,5 +31,8 @@
     }
     a:hover{
         color: coral;
+    }
+    .icon{
+        color:#92cbdc;
     }
 </style>

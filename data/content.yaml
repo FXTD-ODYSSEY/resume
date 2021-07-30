@@ -2,78 +2,110 @@ BasicInfo:
   FirstName: 梁伟添
   LastName: TimmyLiang
   Photo: avatar.jpg
+  Age: 22 岁
+  Sex: 男
   Contacts:
-    - Icon: fas fa-phone
+    - Icon: fa fa-phone
       Info: 手机 <a href="tel:18998459857">+86 18998459857</a>
-    - Icon: fas fa-envelope
-      Info: 邮箱 <a href="mailto:820472580@qq.com">820472580@qq.com</a> 
-    - Icon: fas fa-globe
-      Info: 博客 <a href="https://blog.l0v0.com" target="_blank">blog.l0v0.com</a> 
-    - Icon: fas fa-map-marker-alt
-      Info: 地点 <a href="https://j.map.baidu.com/44/Sb" target="_blank">广东省深圳科兴科学园</a>
+    - Icon: fa fa-envelope
+      Info: 邮箱 <a href="mailto:820472580@qq.com">820472580@qq.com</a>
+    - Icon: fa fa-weixin
+      Info: 微信 <a href="https://blog.l0v0.com/about/wechat.jpg" target="_blank">abc18929007908</a>
+    - Icon: fa fa-globe
+      Info: 博客 <a href="https://blog.l0v0.com" target="_blank">blog.l0v0.com</a>
 
-Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-Experience:
-  - Employer: Super Cool Company
-    Place: Oxford, UK
-    Positions:
-      - Title: Software Engineer
-        Date: Jan 2020 - Present
-        Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'Django', 'OOP', 'Javascript', 'HTML', 'CSS', 'Agile']
-      - Title: Software Tester
-        Date: Mar 2019 - Jan 2020
-        Details:
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'BDD', 'Selenium', 'OOP', 'Agile']
-  - Employer: Another super cool company
-    Place: Lisbon, PT
-    Positions:
-      - Title: Flow Cytometry Resource Specialist
-        Date: Jan 2018 - Mar 2019
-        Details:
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
-  - Employer: Institute of Neural Engineering
-    Place: Graz, AT
-    Positions:
-      - Title: Master's Thesis Research Intern
-        Date: Oct 2016 - Jun 2017
-        Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-        Badges: ['Python', 'MATLAB', 'Data Processing', 'Paradigm Design']
-  - Employer: Institute of Neural Engineering
-    Place: Graz, AT
-    Positions:
-      - Title: Master's Thesis Research Intern
-        Date: Oct 2016 - Jun 2017
-        Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-        Badges: ['Python', 'MATLAB', 'Data Processing', 'Paradigm Design']
+Profile: "民族: <b>汉族</b><br>籍贯: <b>广东新会</b><br>政治面貌: <b>中共党员</b><br>出生年月: <b>1998年12月</b>"
 
 Education:
-  - Course: BSc & MSc in Biomedical Engineering and Biophysics
-    Place: University of Lisbon
-    Date: Sep 2012 - Nov 2017
-    Details: Specialised in data analysis
+  - Course: <a href="https://www.gdut.edu.cn/">广东工业大学</a> - 本科
+    Place: "专业: 数字媒体技术"
+    Date: 2016-09 至 2020-06
+    Icon: gdut.jpg
+
+Experience:
+  - Employer: 华强方特（深圳）电影有限公司
+    Icon: fanta.ico
+    Place: 广东深圳
+    Positions:
+      - Title: 流程TD <span style="background:#adcdf4;color:white;font-size:3px;padding:3px;border-radius:30%">实习</span>
+        Date: 2018-11 至 2019-11
+        Details:
+          - Publish 检查框架编写
+          - 基于 XML 配置生成 Qt 界面
+          - 绑定表情 RBF 处理方案
+          - 协助产线解决问题
+        Badges: ["Python", "Maya", "Qt", "流程开发"]
+  - Employer: 深圳市腾讯计算机系统有限公司
+    Icon: tencent.ico
+    Place: 广东深圳
+    Positions:
+      - Title: 魔方工作室 - 工具TA
+        Date: 2019-11 至今
+        Details:
+          - 基于 Pyblish 搭建 Maya Unreal 质检流程
+          - 协助 动画 模型 搭建标准化流程
+          - 部署 rez 环境，基于 Rez 环境的启动器
+          - 提供 Unreal & Maya 等 DCC 工具支持
+          - 协助美术解决流程管线遇到的问题
+        Badges: ["Python", "Maya", "流程开发", "Qt", "Pyblish", "Rez", "Unreal"]
+
+Projects:
+  - Type: Python
+    Icon: python.jpg
+    Project:
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/QBinder">QBinder</a>
+        Description: Python Qt 数据绑定框架
+        Details:
+          - 利用 lambda 参数化绑定数据 操作简单
+          - 数据自动存储和加载
+          - QEventHook 全局事件钩子
+  - Type: Unreal
+    Icon: unreal.png
+    Project:
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/Unreal-PyToolkit">Unreal-PyToolkit</a>
+        Description: Unreal Python 最佳实践
+        Details:
+          - 多个自动化工具整合
+          - Unreal Python 黑科技整合
+  - Type: VScode
+    Icon: vscode.ico
+    Project:
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/vscode-mayapy">MayaPy</a>
+        Description: VScode Maya 开发插件
+        Details:
+          - Maya 代码库自动补全
+          - 内置 Debugger 调试代码
+          - 补全提示带有帮助链接，方便跳转
+  - Type: Renderdoc
+    Icon: renderdoc.jpg
+    Project:
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/renderdoc2fbx">renderdoc2fbx</a>
+        Description: Python 导出 FBX 插件
+        Details:
+          - Renderdoc 调用 Qt 生成界面
+          - 支持顶点色 UV 法线 切线信息导出
+  - Type: Maya
+    Icon: maya.png
+    Project:
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/mpdb">mpdb</a>
+        Description: Maya Debugger 插件
+        Details:
+          - 不冻结 Maya 进行调试
+          - 代码面板可以定位到代码运行位置
+          - 可以实时看到变量的变化
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/CommandLauncher">CommandLauncher</a>
+        Description: Maya 启动器
+        Details:
+          - 任意位置调出
+          - 快速执行命令
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/MayaViewportCapture">MayaViewportCapture</a>
+        Description: Maya 视窗截取工具
+        Details:
+          - 自动拍屏拼接图片
+
+Diplomas:
+  - CET4 英语4级 (2016)
+  - CET6 英语6级 (2017)
 
 Skills:
   - Family: 编程语言
@@ -82,21 +114,39 @@ Skills:
       - HTML
       - Javascript
       - CSS
-      - SQL
-      - AutoHotkey
       - C++
-  - Family: 框架
+      - AutoHotkey
+  - Family: DCC 软件
     Items:
-      - Django
-      - Flask
-      - Hugo
-      - React
-  - Family: Developer Tools
-    Items:
-      - Git
-      - Docker
-      - Jenkins
-      - AWS
+      - Maya
+      - Unreal
+      - Photoshop
+      - Blender
+      - 3dsMax
+      - Houdini
+
+Techniques:
+  - Name: <b>Python Qt 界面开发</b>
+    Percent: 100%
+    Handle: "精通"
+  - Name: <b>Unreal Python 开发</b>
+    Percent: 100%
+    Handle: "精通"
+  - Name: <b>Maya Python 开发</b>
+    Percent: 100%
+    Handle: "精通"
+  - Name: <b>Maya C++ 开发</b>
+    Percent: 70%
+    Handle: "掌握"
+  - Name: <b>Web 开发</b>
+    Percent: 70%
+    Handle: "掌握"
+  - Name: <b>Shader 开发</b>
+    Percent: 50%
+    Handle: "一般"
+  - Name: <b>Houdini</b>
+    Percent: 50%
+    Handle: "一般"
 
 # Languages:
 #   - Name: Portuguese
@@ -108,12 +158,9 @@ Skills:
 #   - Name: German
 #     Level: B1
 
-Diplomas:
-  - CET4 英语4级 (2016)
-  - CET6 英语6级 (2017)
 
 Interests:
-  - <li class="contact__item"><i class="fa fa-music" aria-hidden="true"></i> 音乐</li>
-  - <li class="contact__item"><i class="fa fa-street-view" aria-hidden="true"></i> 运动</li>
-  - <li class="contact__item"><i class="fa fa-play-circle" aria-hidden="true"></i> 动漫</li>
-  - <li class="contact__item"><i class="fa fa-flask" aria-hidden="true"></i> 研究</li>
+  - <li class="contact__item" style="text-align:left"><i class="fa fa-music" aria-hidden="true"></i> 音乐</li>
+  - <li class="contact__item" style="text-align:left"><i class="fa fa-street-view" aria-hidden="true"></i> 运动</li>
+  - <li class="contact__item" style="text-align:left"><i class="fa fa-play-circle" aria-hidden="true"></i> 动漫</li>
+  - <li class="contact__item" style="text-align:left"><i class="fa fa-flask" aria-hidden="true"></i> 技术</li>

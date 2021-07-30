@@ -1,0 +1,49 @@
+{{ if .Site.Data.content.Skills }}
+<div class="sideSection">
+    <div class="sideSection__heading">
+        <h2 class="sideSection__title">
+            <i class="icon fa fa-laptop" aria-hidden="true"></i>
+            {{ i18n "skills" }}
+        </h2>
+    </div>
+    <div class="sideSection__content">
+        <ul class="skills">
+            <li>
+                {{ range .Site.Data.content.Skills }}
+                <ul class="skills__group">
+                    <span>{{ .Family | safeHTML }}</span>
+                    {{ range .Items }}
+                    <li>{{ . | safeHTML }}</li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </li>
+        </ul>
+    </div>
+    <hr style="margin: 5px 0px">
+    {{ range .Site.Data.content.Techniques }}
+    {{.Name | safeHTML}}
+    <div class="progress__container">
+        <div class="w3-light-grey w3-round">
+            <div class="w3-container w3-round w3-blue" style="width:{{.Percent}};height:100%;"></div>
+        </div>
+        &nbsp;
+        {{.Handle | safeHTML}}
+    </div>
+
+    {{ end }}
+</div>
+<style>
+    .progress__container {
+        display: grid;
+        grid-template-columns: 10fr 2fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+            ". .";
+        padding-bottom: 5px;
+        /* justify-content: center; */
+        /* align-content: center; */
+    }
+</style>
+{{ end }}
