@@ -1,0 +1,41 @@
+name: github pages
+
+# 触发条件 | 每次 push 自动触发
+on:
+  push:
+    branches:
+      - master  
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      # 拉取仓库到 服务器上 这个是 Github 自带默认配置的
+      - uses: actions/checkout@v2
+        with:
+          # 下面是基于 Hugo 部署仓库推荐的操作流程 https://github.com/peaceiris/actions-hugo
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      
+      # NOTE 跑 python 脚本生成 links.json 数据供 Hugo 调用
+      - name: collect links.json
+        run: python ${{ github.workspace }}/content/collect_link_data.py
+
+      # 配置 服务器 Hugo 环境 | 直接调用别人做好的 actions
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      # 运行 Hugo 生成网站
+      - name: Build
+        run: hugo --minify
+
+      # 将网站部署到 Github Pages 上 | 直接调用别人做好的 actions
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+        
