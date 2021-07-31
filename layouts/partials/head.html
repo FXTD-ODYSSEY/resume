@@ -22,7 +22,12 @@
         {{ template "_internal/google_analytics_async.html" . }}
     {{- end -}}
 </head>
-
+<script>
+    var styleElem = document.head.appendChild(document.createElement("style"));
+    date = new Date()
+    year = date.getFullYear()
+    styleElem.innerHTML = '.content__left::after{content: "' + year + ' © 梁伟添 | l0v0.com | 粤ICP备19055327号-1";}';
+</script>
 <style>
     a {
         text-decoration: none;

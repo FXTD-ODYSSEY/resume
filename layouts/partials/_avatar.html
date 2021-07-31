@@ -6,7 +6,14 @@
         </div>
     </div>
     <div style="text-align:center;">
-        {{ .Site.Data.content.BasicInfo.Age }}
+        <span class="age">{{ .Site.Data.content.BasicInfo.Age }}</span>
         {{ .Site.Data.content.BasicInfo.Sex }}
      </div>
+
+     <script>
+         date = new Date()
+         year = date.getFullYear()
+         age_element = document.querySelector('.age')
+         age_element.innerText = year - age_element.innerText + '岁'
+     </script>
 {{ end }}
