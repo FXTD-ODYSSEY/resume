@@ -2,6 +2,6 @@
 
 My Personal Resume
 
-https://l0v0.com/
+https://resume.l0v0.com/
 
 Ctrl + P for Printing or PDF export
