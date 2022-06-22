@@ -26,25 +26,23 @@
     &__company,
     &__position {
         text-align: left;
-        width: 70%;
         float: left;
     }
 
     &__company {
-        color: $color-grey-dark;
+        color: $color-dark;
     }
 
     &__position {
         // text-transform: uppercase;
         font-size: 1.3rem;
-        color: $color-grey-dark;
+        color: $color-dark;
     }
 
     &__date,
     &__place {
         float: right;
         text-align: right;
-        width: 30%;
         color: $color-secondary;
     }
 
@@ -81,7 +79,7 @@
         font-weight: 400;
         display: inline-block;
         background-color: $color-primary;
-        color: $color-primary-text;
+        color: $color-icon-primary;
         border-radius: 1rem;
         padding: 0.1rem 0.6rem;
     }

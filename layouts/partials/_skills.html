@@ -1,4 +1,4 @@
-{{ if .Site.Data.content.Skills }}
+{{ if .Skills }}
 <div class="sideSection">
     <div class="sideSection__heading">
         <h2 class="sideSection__title">
@@ -9,7 +9,7 @@
     <div class="sideSection__content">
         <ul class="skills">
             <li>
-                {{ range .Site.Data.content.Skills }}
+                {{ range .Skills }}
                 <ul class="skills__group">
                     <span>{{ .Family | safeHTML }}</span>
                     {{ range .Items }}
@@ -21,7 +21,7 @@
         </ul>
     </div>
     <hr style="margin: 5px 0px">
-    {{ range .Site.Data.content.Techniques }}
+    {{ range .Techniques }}
     {{.Name | safeHTML}}
     <div class="progress__container">
         <div class="w3-light-grey w3-round">
@@ -36,7 +36,7 @@
 <style>
     .progress__container {
         display: grid;
-        grid-template-columns: 10fr 2fr;
+        grid-template-columns: 10fr 5fr;
         grid-template-rows: 1fr;
         gap: 0px 0px;
         grid-template-areas:

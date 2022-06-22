@@ -1,5 +1,5 @@
 languageCode = "en-us"
-defaultContentLanguage = "zh"
+defaultContentLanguage = "en"
 enableRobotsTXT = "true"
 enableEmoji = "true"
 relativeURLs = true
@@ -19,3 +19,12 @@ colorPrimaryText = "#fff"
 colorRightColumnBackground = "#e6e6e6"
 colorSecondary = "#aaa"
 pages = 2
+
+# Multi language support
+[languages]
+  [languages.en]
+    languageName = 'en'
+    weight = 1
+  [languages.zh]
+    languageName = 'zh'
+    weight = 2

@@ -1,4 +1,4 @@
-{{ if .Site.Data.content.Interests }}
+{{ if .Interests }}
 <div class="sideSection">
     <div class="sideSection__heading">
         <h2 class="sideSection__title">
@@ -8,7 +8,7 @@
     </div>
     <div class="sideSection__content">
         <ul class="interests">
-            {{ range .Site.Data.content.Interests }}
+            {{ range .Interests }}
             <li class="interests__item">{{ . | safeHTML }}</li>
             {{ end }}
         </ul>

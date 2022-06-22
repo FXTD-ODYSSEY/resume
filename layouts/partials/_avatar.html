@@ -1,19 +1,21 @@
-{{ if .Site.Data.content.BasicInfo.Photo }}
+{{ if .BasicInfo.Photo }}
     <div class="sideSection avatar">
         <div class="avatar__container">
             <!-- 自定义照片格式 -->
-            <img class="avatar__img" src="{{ .Site.Data.content.BasicInfo.Photo }}" alt="photo of me" style="width: 100%;top: 70%;">
+            <img class="avatar__img" src="{{ .BasicInfo.Photo }}" alt="photo of me" style="width: 100%;top: 70%;">
         </div>
     </div>
     <div style="text-align:center;">
-        <span class="age">{{ .Site.Data.content.BasicInfo.Age }}</span>
-        {{ .Site.Data.content.BasicInfo.Sex }}
+        <span class="age"></span>
+        &emsp;
+        {{ .BasicInfo.SexLabel }}: {{ .BasicInfo.Sex }}
      </div>
 
      <script>
          date = new Date()
          year = date.getFullYear()
          age_element = document.querySelector('.age')
-         age_element.innerText = year - age_element.innerText + '岁'
+         age = year - "{{ .BasicInfo.Age }}"
+         age_element.innerText = "{{ .BasicInfo.AgeLabel }}: " + age
      </script>
 {{ end }}
