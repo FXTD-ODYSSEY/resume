@@ -1,0 +1,170 @@
+BasicInfo:
+  Domain: l0v0.com
+  Certificate: 粤ICP备19055327号-1
+  FirstName: 梁伟添
+  LastName: TimmyLiang
+  Photo: /avatar.jpg
+  Age: 1998
+  AgeLabel: 年龄
+  Sex: 男
+  SexLabel: 性别
+  Contacts:
+    - Icon: fa fa-phone
+      Info: 手机 <a href="tel:18998459857">+86 18998459857</a>
+    - Icon: fa fa-envelope
+      Info: 邮箱 <a href="mailto:820472580@qq.com">820472580@qq.com</a>
+    - Icon: fa fa-weixin
+      Info: 微信 <a href="https://blog.l0v0.com/about/wechat.jpg" target="_blank">abc18929007908</a>
+    - Icon: fa fa-globe
+      Info: 博客 <a href="https://blog.l0v0.com" target="_blank">blog.l0v0.com</a>
+
+Profile: "民族: <b>汉族</b><br>籍贯: <b>广东新会</b><br>政治面貌: <b>中共党员</b><br>出生年月: <b>1998年12月</b>"
+
+Education:
+  - Course: <a href="https://www.gdut.edu.cn/">广东工业大学</a> - 本科
+    Place: "专业: 数字媒体技术"
+    Date: 2016-09 至 2020-06
+    Icon: /gdut.jpg
+
+Experience:
+  - Employer: 华强方特（深圳）电影有限公司
+    Icon: /fanta.ico
+    Place: 广东深圳
+    Positions:
+      - Title: 流程TD <span style="background:#adcdf4;color:white;font-size:3px;padding:3px;border-radius:30%">实习</span>
+        Date: 2018-11 至 2019-11
+        Details:
+          - Publish 检查框架编写
+          - 基于 XML 配置生成 Qt 界面
+          - 绑定表情 RBF 处理方案
+          - 协助产线解决问题
+        Badges: ["Python", "Maya", "Qt", "流程开发"]
+  - Employer: 深圳市腾讯计算机系统有限公司
+    Icon: /tencent.ico
+    Place: 广东深圳
+    Positions:
+      - Title: 魔方工作室 - 工具TA
+        Date: 2019-11 至今
+        Details:
+          - 基于 Pyblish 搭建 Maya Unreal 质检流程
+          - 协助 动画 模型 搭建标准化流程
+          - 部署 rez 环境，基于 Rez 环境的启动器
+          - 提供 Unreal & Maya 等 DCC 工具支持
+          - 协助美术解决流程管线遇到的问题
+        Badges: ["Python", "Maya", "流程开发", "Qt", "Pyblish", "Rez", "Unreal"]
+
+Projects:
+  - Type: Python
+    Icon: /python.jpg
+    Project:
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/QBinder">QBinder</a>
+        Description: Python Qt 数据绑定框架
+        Details:
+          - 利用 lambda 参数化绑定数据 操作简单
+          - 数据自动存储和加载
+          - QEventHook 全局事件钩子
+  - Type: Unreal
+    Icon: /unreal.png
+    Project:
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/Unreal-PyToolkit">Unreal-PyToolkit</a>
+        Description: Unreal Python 最佳实践
+        Details:
+          - 多个自动化工具整合
+          - Unreal Python 黑科技整合
+  - Type: VScode
+    Icon: /vscode.ico
+    Project:
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/vscode-mayapy">MayaPy</a>
+        Description: VScode Maya 开发插件
+        Details:
+          - Maya 代码库自动补全
+          - 内置 Debugger 调试代码
+          - 补全提示带有帮助链接，方便跳转
+  - Type: Renderdoc
+    Icon: /renderdoc.jpg
+    Project:
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/renderdoc2fbx">renderdoc2fbx</a>
+        Description: Python 导出 FBX 插件
+        Details:
+          - Renderdoc 调用 Qt 生成界面
+          - 支持顶点色 UV 法线 切线信息导出
+  - Type: Maya
+    Icon: /maya.png
+    Project:
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/mpdb">mpdb</a>
+        Description: Maya Debugger 插件
+        Details:
+          - 不冻结 Maya 进行调试
+          - 代码面板可以定位到代码运行位置
+          - 可以实时看到变量的变化
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/CommandLauncher">CommandLauncher</a>
+        Description: Maya 启动器
+        Details:
+          - 任意位置调出
+          - 快速执行命令
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/MayaViewportCapture">MayaViewportCapture</a>
+        Description: Maya 视窗截取工具
+        Details:
+          - 自动拍屏拼接图片
+
+Diplomas:
+  - CET4 英语4级 (2016)
+  - CET6 英语6级 (2017)
+
+Skills:
+  - Family: 编程语言
+    Items:
+      - Python
+      - HTML
+      - Javascript
+      - CSS
+      - C++
+      - AutoHotkey
+  - Family: DCC 软件
+    Items:
+      - Maya
+      - Unreal
+      - Photoshop
+      - Blender
+      - 3dsMax
+      - Houdini
+
+Techniques:
+  - Name: <b>Python Qt 界面开发</b>
+    Percent: 100%
+    Handle: "精通"
+  - Name: <b>Unreal Python 开发</b>
+    Percent: 100%
+    Handle: "精通"
+  - Name: <b>Maya Python 开发</b>
+    Percent: 100%
+    Handle: "精通"
+  - Name: <b>Maya C++ 开发</b>
+    Percent: 70%
+    Handle: "掌握"
+  - Name: <b>Web 开发</b>
+    Percent: 70%
+    Handle: "掌握"
+  - Name: <b>Shader 开发</b>
+    Percent: 50%
+    Handle: "一般"
+  - Name: <b>Houdini</b>
+    Percent: 50%
+    Handle: "一般"
+
+# Languages:
+#   - Name: Portuguese
+#     Level: Native
+#   - Name: English
+#     Level: C2
+#   - Name: Spanish
+#     Level: B1
+#   - Name: German
+#     Level: B1
+
+
+Interests:
+  - <li class="contact__item" style="text-align:left"><i class="fa fa-music" aria-hidden="true"></i> 音乐</li>
+  - <li class="contact__item" style="text-align:left"><i class="fa fa-street-view" aria-hidden="true"></i> 运动</li>
+  - <li class="contact__item" style="text-align:left"><i class="fa fa-play-circle" aria-hidden="true"></i> 动漫</li>
+  - <li class="contact__item" style="text-align:left"><i class="fa fa-flask" aria-hidden="true"></i> 技术</li>

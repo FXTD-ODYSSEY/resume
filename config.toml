@@ -24,7 +24,9 @@ pages = 2
 [languages]
   [languages.en]
     languageName = 'en'
+    title = "TimmyLiang Personal Resume"
     weight = 1
   [languages.zh]
     languageName = 'zh'
+    title = "梁伟添的个人简历"
     weight = 2
