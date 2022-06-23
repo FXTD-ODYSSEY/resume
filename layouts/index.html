@@ -2,6 +2,7 @@
 <html lang="en">
     {{ partial "head.html" . }}
 <body>
+    {{ partial "_i18n.html" . }}
     <div class="content">
         <div class="content__left">
             {{ $data := or (index .Site.Data .Site.Language.Lang).content .Site.Data.content }}
