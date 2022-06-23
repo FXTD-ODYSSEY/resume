@@ -1,3 +1,4 @@
 [submodule "themes/almeida-cv"]
 	path = themes/almeida-cv
 	url = https://github.com/ineesalmeida/almeida-cv.git
+	branch = master
