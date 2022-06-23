@@ -12,11 +12,11 @@ BasicInfo:
     - Icon: fa fa-phone
       Info: Phone <a href="tel:18998459857">+86 18998459857</a>
     - Icon: fa fa-envelope
-      Info: e-mail <a href="mailto:820472580@qq.com">820472580@qq.com</a>
+      Info: E-mail <a href="mailto:820472580@qq.com">820472580@qq.com</a>
     - Icon: fa fa-weixin
-      Info: wechat <a href="https://blog.l0v0.com/about/wechat.jpg" target="_blank">abc18929007908</a>
+      Info: WeChat <a href="https://blog.l0v0.com/about/wechat.jpg" target="_blank">abc18929007908</a>
     - Icon: fa fa-globe
-      Info: blog <a href="https://blog.l0v0.com" target="_blank">blog.l0v0.com</a>
+      Info: Blog <a href="https://blog.l0v0.com" target="_blank">blog.l0v0.com</a>
 
 Profile: "Nation: <b>China</b><br>Birth Date: <b>1998.12</b>"
 
@@ -52,6 +52,13 @@ Experience:
           - Unreal Maya PhotoShop Blender Tool Development
           - Pipeline problem solver
         Badges: ["Python", "Maya", "Pipeline Development", "Qt", "Pyblish", "Rez", "Unreal"]
+      - Title: LIGHTSPEED STUDIOS - Tool TA
+        Date: Sep 2021 - Present
+        Details:
+          - Build a digital human pipeline editing tool
+          - Learn the rez environment and ci process
+          - Deploy mGear Rigging System to Project
+        Badges: ["Python", "Maya", "Pipeline Development", "Qt", "Digital Human"]
 
 Projects:
   - Type: Python
@@ -107,9 +114,9 @@ Projects:
         Details:
           - Automatically take screen stitching pictures
 
-Diplomas:
-  - China CET-4 (2016)
-  - China CET-6 (2017)
+# Diplomas:
+#   - China CET-4 (2016)
+#   - China CET-6 (2017)
 
 Skills:
   - Family: Programming Language
@@ -141,16 +148,16 @@ Techniques:
     Handle: "Expert"
   - Name: <b>Maya C++ Development</b>
     Percent: 70%
-    Handle: "good"
+    Handle: "Proficient"
   - Name: <b>Web Development</b>
     Percent: 70%
-    Handle: "good"
+    Handle: "Proficient"
   - Name: <b>Shader Development</b>
     Percent: 50%
-    Handle: "handle"
+    Handle: "Competent"
   - Name: <b>Houdini</b>
     Percent: 50%
-    Handle: "handle"
+    Handle: "Competent"
 
 # Languages:
 #   - Name: Portuguese

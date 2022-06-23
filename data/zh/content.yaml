@@ -44,7 +44,7 @@ Experience:
     Place: 广东深圳
     Positions:
       - Title: 魔方工作室 - 工具TA
-        Date: 2019-11 至今
+        Date: 2018-11 至 2021-09
         Details:
           - 基于 Pyblish 搭建 Maya Unreal 质检流程
           - 协助 动画 模型 搭建标准化流程
@@ -52,6 +52,13 @@ Experience:
           - 提供 Unreal & Maya 等 DCC 工具支持
           - 协助美术解决流程管线遇到的问题
         Badges: ["Python", "Maya", "流程开发", "Qt", "Pyblish", "Rez", "Unreal"]
+      - Title: 光子工作室 - 工具TA
+        Date: 2021-9 至今
+        Details:
+          - 搭建数字人管线编辑工具
+          - 学习 rez 环境 ci 构建流程
+          - mgear 绑定流程接入
+        Badges: ["Python", "Maya", "流程开发", "Qt", "数字人"]
 
 Projects:
   - Type: Python
