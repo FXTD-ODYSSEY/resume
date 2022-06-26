@@ -61,23 +61,6 @@ Experience:
         Badges: ["Python", "Maya", "流程开发", "Qt", "数字人"]
 
 Projects:
-  - Type: Python
-    Icon: /python.jpg
-    Project:
-      - Title: <a href="https://github.com/FXTD-ODYSSEY/QBinder">QBinder</a>
-        Description: Python Qt 数据绑定框架
-        Details:
-          - 利用 lambda 参数化绑定数据 操作简单
-          - 数据自动存储和加载
-          - QEventHook 全局事件钩子
-  - Type: Unreal
-    Icon: /unreal.png
-    Project:
-      - Title: <a href="https://github.com/FXTD-ODYSSEY/Unreal-PyToolkit">Unreal-PyToolkit</a>
-        Description: Unreal Python 最佳实践
-        Details:
-          - 多个自动化工具整合
-          - Unreal Python 黑科技整合
   - Type: VScode
     Icon: /vscode.ico
     Project:
@@ -87,6 +70,29 @@ Projects:
           - Maya 代码库自动补全
           - 内置 Debugger 调试代码
           - 补全提示带有帮助链接，方便跳转
+  - Type: Unreal
+    Icon: /unreal.png
+    Project:
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/Unreal-PyToolkit">Unreal-PyToolkit</a>
+        Description: Unreal Python 最佳实践
+        Details:
+          - 多个自动化工具整合
+          - Unreal Python 黑科技整合
+  - Type: Python
+    Icon: /python.jpg
+    Project:
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/QBinder">QBinder</a>
+        Description: Python Qt 数据绑定框架
+        Details:
+          - 利用 lambda 参数化绑定数据 操作简单
+          - 数据自动存储和加载
+          - QEventHook 全局事件钩子
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/pyuiw">pyuiw</a>
+        Description: Python Qt 监听 ui 文件生成 python 代码
+        Details:
+          - 指定目录自动监听 ui 文件
+          - 支持 QMainWindow 作为组件嵌入生成 代码
+          - 支持 Qt 内置图标生成
   - Type: Renderdoc
     Icon: /renderdoc.jpg
     Project:

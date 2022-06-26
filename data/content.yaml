@@ -61,23 +61,6 @@ Experience:
         Badges: ["Python", "Maya", "Pipeline Development", "Qt", "Digital Human"]
 
 Projects:
-  - Type: Python
-    Icon: /python.jpg
-    Project:
-      - Title: <a href="https://github.com/FXTD-ODYSSEY/QBinder">QBinder</a>
-        Description: Python Qt Data Binding Framework
-        Details:
-          - Binding data with lambda parameters make life easier 
-          - Data is automatically dumped and loaded
-          - QEventHook for global event hook
-  - Type: Unreal
-    Icon: /unreal.png
-    Project:
-      - Title: <a href="https://github.com/FXTD-ODYSSEY/Unreal-PyToolkit">Unreal-PyToolkit</a>
-        Description: Unreal Python Best practice
-        Details:
-          - Integrate Qt Interface into Unreal Engine
-          - Unreal Python Dark Magic Collections
   - Type: VScode
     Icon: /vscode.ico
     Project:
@@ -87,6 +70,29 @@ Projects:
           - Maya Python Library AutoComplete
           - Debugger for python code
           - jump link to maya cmds doc
+  - Type: Unreal
+    Icon: /unreal.png
+    Project:
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/Unreal-PyToolkit">Unreal-PyToolkit</a>
+        Description: Unreal Python Best practice
+        Details:
+          - Integrate Qt Interface into Unreal Engine
+          - Unreal Python Dark Magic Collections
+  - Type: Python
+    Icon: /python.jpg
+    Project:
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/QBinder">QBinder</a>
+        Description: Python Qt Data Binding Framework
+        Details:
+          - Binding data with lambda parameters make life easier 
+          - Data is automatically dumped and loaded
+          - QEventHook for global event hook
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/pyuiw">pyuiw</a>
+        Description: Command Line Watcher for auto compile Qt ui to python file
+        Details:
+          - watch ui directory for changes
+          - Support for QMainWindow as component embedding generated code
+          - Support Qt built-in icon generation
   - Type: Renderdoc
     Icon: /renderdoc.jpg
     Project:
