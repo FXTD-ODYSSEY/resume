@@ -7,7 +7,7 @@ relativeURLs = true
 theme = "almeida-cv"
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
-baseURL = "https://l0v0.com/"
+baseURL = "https://resume.l0v0.com/"
 title = "梁伟添的个人简历"
 
 [params]
