@@ -21,7 +21,7 @@ BasicInfo:
 Profile: "民族: <b>汉族</b><br>籍贯: <b>广东新会</b><br>政治面貌: <b>中共党员</b><br>出生年月: <b>1998年12月</b>"
 
 Education:
-  - Course: <a href="https://www.gdut.edu.cn/">广东工业大学</a> - 本科
+  - Course: <a href="https://www.gdut.edu.cn/">广东工业大学</a> - 理科学士
     Place: "专业: 数字媒体技术"
     Date: 2016-09 至 2020-06
     Icon: /gdut.jpg
