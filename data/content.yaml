@@ -15,8 +15,6 @@ BasicInfo:
       Info: E-mail <a href="mailto:820472580@qq.com">820472580@qq.com</a>
     - Icon: fa fa-weixin
       Info: WeChat <a href="https://blog.l0v0.com/about/wechat.jpg" target="_blank">abc18929007908</a>
-    - Icon: fa fa-globe
-      Info: Blog <a href="https://blog.l0v0.com" target="_blank">blog.l0v0.com</a>
 
 Profile: "Nation: <b>China</b><br>Birth Date: <b>1998.12</b>"
 
@@ -27,6 +25,26 @@ Education:
     Icon: gdut.jpg
 
 Experience:
+  - Employer: Tencent Technology (Shenzhen) Co.Ltd
+    Icon: /tencent.ico
+    Place: China
+    Positions:
+      - Title: LIGHTSPEED STUDIOS - Tool TA
+        Date: Sep 2021 - Present
+        Details:
+          - Build a digital human pipeline editing tool
+          - Learn the rez environment and ci process
+          - Deploy mGear Rigging System to Project
+        Badges: ["Python", "Maya", "Pipeline", "Qt", "Digital Human"]
+      - Title: MoreFun Studio - Tool TA
+        Date: Nov 2019 - Sep 2021
+        Details:
+          - Maya Unreal Asset Publish Pipeline base on Pyblish framework
+          - Create Project Pipeline Standard for Animator & Modeler
+          - Deploy a rez base launcher.
+          - Unreal Maya PhotoShop Blender Tool Development
+          - Pipeline problem solver
+        Badges: ["Python", "Maya", "Pipeline", "Qt", "Pyblish", "Rez", "Unreal"]
   - Employer: Fantawild Movie (Shenzhen) Co.Ltd
     Icon: /fanta.ico
     Place: China
@@ -38,87 +56,76 @@ Experience:
           - Generate Qt Interface base XML Configuration
           - Maya RBF Driver for Facial Rigging 
           - Pipeline problem solver
-        Badges: ["Python", "Maya", "Qt", "Pipeline Development"]
-  - Employer: Tencent Technology (Shenzhen) Co.Ltd
-    Icon: /tencent.ico
-    Place: China
-    Positions:
-      - Title: MoreFun Studio - Tool TA
-        Date: Nov 2019 - Sep 2021
-        Details:
-          - Maya Unreal Asset Publish Pipeline base on Pyblish framework
-          - Create Project Pipeline Standard for Animator & Modeler
-          - Deploy a rez base launcher.
-          - Unreal Maya PhotoShop Blender Tool Development
-          - Pipeline problem solver
-        Badges: ["Python", "Maya", "Pipeline Development", "Qt", "Pyblish", "Rez", "Unreal"]
-      - Title: LIGHTSPEED STUDIOS - Tool TA
-        Date: Sep 2021 - Present
-        Details:
-          - Build a digital human pipeline editing tool
-          - Learn the rez environment and ci process
-          - Deploy mGear Rigging System to Project
-        Badges: ["Python", "Maya", "Pipeline Development", "Qt", "Digital Human"]
+        Badges: ["Python", "Maya", "Qt", "Pipeline"]
+  
 
-Projects:
-  - Type: VScode
-    Icon: /vscode.ico
-    Project:
-      - Title: <a href="https://github.com/FXTD-ODYSSEY/vscode-mayapy">MayaPy</a>
-        Description: VScode Maya Dev Extension
-        Details:
-          - Maya Python Library AutoComplete
-          - Debugger for python code
-          - jump link to maya cmds doc
-  - Type: Unreal
-    Icon: /unreal.png
-    Project:
-      - Title: <a href="https://github.com/FXTD-ODYSSEY/Unreal-PyToolkit">Unreal-PyToolkit</a>
-        Description: Unreal Python Best practice
-        Details:
-          - Integrate Qt Interface into Unreal Engine
-          - Unreal Python Dark Magic Collections
-  - Type: Python
-    Icon: /python.jpg
-    Project:
-      - Title: <a href="https://github.com/FXTD-ODYSSEY/QBinder">QBinder</a>
-        Description: Python Qt Data Binding Framework
-        Details:
-          - Binding data with lambda parameters make life easier 
-          - Data is automatically dumped and loaded
-          - QEventHook for global event hook
-      - Title: <a href="https://github.com/FXTD-ODYSSEY/pyuiw">pyuiw</a>
-        Description: Command Line Watcher for auto compile Qt ui to python file
-        Details:
-          - watch ui directory for changes
-          - Support for QMainWindow as component embedding generated code
-          - Support Qt built-in icon generation
-  - Type: Renderdoc
-    Icon: /renderdoc.jpg
-    Project:
-      - Title: <a href="https://github.com/FXTD-ODYSSEY/renderdoc2fbx">renderdoc2fbx</a>
-        Description: Python FBX Exporter
-        Details:
-          - Create Renderdoc Interface with PySide2
-          - Support VertexColor UV Normal Tangent Information 
-  - Type: Maya
-    Icon: /maya.png
-    Project:
-      - Title: <a href="https://github.com/FXTD-ODYSSEY/mpdb">mpdb</a>
-        Description: Maya Debugger Plugin
-        Details:
-          - Debug Maya without freeze
-          - The code panel can be anchored to where the code runs
-          - You can see changes in variables in real time
-      - Title: <a href="https://github.com/FXTD-ODYSSEY/CommandLauncher">CommandLauncher</a>
-        Description: Maya Launcher
-        Details:
-          - Call it up anywhere
-          - Execute commands quickly
-      - Title: <a href="https://github.com/FXTD-ODYSSEY/MayaViewportCapture">MayaViewportCapture</a>
-        Description: Maya Viewport Capture
-        Details:
-          - Automatically take screen stitching pictures
+Links: 
+  - Icon: fa fa-desktop
+    Info: Work Experience <a href="/ppt" target="_blank">Presentation</a>
+  - Icon: fa fa-github
+    Info: Open Source <a href="https://github.com/FXTD-ODYSSEY" target="_blank">Project</a>
+  - Icon: fa fa-globe
+    Info: Blog <a href="https://blog.l0v0.com" target="_blank">blog.l0v0.com</a>
+
+# Projects:
+#   - Type: VScode
+#     Icon: /vscode.ico
+#     Project:
+#       - Title: <a href="https://github.com/FXTD-ODYSSEY/vscode-mayapy">MayaPy</a>
+#         Description: VScode Maya Dev Extension
+#         Details:
+#           - Maya Python Library AutoComplete
+#           - Debugger for python code
+#           - jump link to maya cmds doc
+#   - Type: Unreal
+#     Icon: /unreal.png
+#     Project:
+#       - Title: <a href="https://github.com/FXTD-ODYSSEY/Unreal-PyToolkit">Unreal-PyToolkit</a>
+#         Description: Unreal Python Best practice
+#         Details:
+#           - Integrate Qt Interface into Unreal Engine
+#           - Unreal Python Dark Magic Collections
+#   - Type: Python
+#     Icon: /python.jpg
+#     Project:
+#       - Title: <a href="https://github.com/FXTD-ODYSSEY/QBinder">QBinder</a>
+#         Description: Python Qt Data Binding Framework
+#         Details:
+#           - Binding data with lambda parameters make life easier 
+#           - Data is automatically dumped and loaded
+#           - QEventHook for global event hook
+#       - Title: <a href="https://github.com/FXTD-ODYSSEY/pyuiw">pyuiw</a>
+#         Description: Command Line Watcher for auto compile Qt ui to python file
+#         Details:
+#           - watch ui directory for changes
+#           - Support for QMainWindow as component embedding generated code
+#           - Support Qt built-in icon generation
+#   - Type: Renderdoc
+#     Icon: /renderdoc.jpg
+#     Project:
+#       - Title: <a href="https://github.com/FXTD-ODYSSEY/renderdoc2fbx">renderdoc2fbx</a>
+#         Description: Python FBX Exporter
+#         Details:
+#           - Create Renderdoc Interface with PySide2
+#           - Support VertexColor UV Normal Tangent Information 
+#   - Type: Maya
+#     Icon: /maya.png
+#     Project:
+#       - Title: <a href="https://github.com/FXTD-ODYSSEY/mpdb">mpdb</a>
+#         Description: Maya Debugger Plugin
+#         Details:
+#           - Debug Maya without freeze
+#           - The code panel can be anchored to where the code runs
+#           - You can see changes in variables in real time
+#       - Title: <a href="https://github.com/FXTD-ODYSSEY/CommandLauncher">CommandLauncher</a>
+#         Description: Maya Launcher
+#         Details:
+#           - Call it up anywhere
+#           - Execute commands quickly
+#       - Title: <a href="https://github.com/FXTD-ODYSSEY/MayaViewportCapture">MayaViewportCapture</a>
+#         Description: Maya Viewport Capture
+#         Details:
+#           - Automatically take screen stitching pictures
 
 # Diplomas:
 #   - China CET-4 (2016)
@@ -132,14 +139,12 @@ Skills:
       - Javascript
       - CSS
       - C++
-      - AutoHotkey
   - Family: DCC SoftWare
     Items:
       - Maya
       - Unreal
       - Photoshop
       - Blender
-      - 3dsMax
       - Houdini
 
 Techniques:
@@ -152,6 +157,9 @@ Techniques:
   - Name: <b>Maya Python Development</b>
     Percent: 100%
     Handle: "Expert"
+  - Name: <b>Maya Rigging Development</b>
+    Percent: 70%
+    Handle: "Proficient"
   - Name: <b>Maya C++ Development</b>
     Percent: 70%
     Handle: "Proficient"

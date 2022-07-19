@@ -18,7 +18,7 @@ colorPrimary = "#99cdf4"
 colorPrimaryText = "#fff"
 colorRightColumnBackground = "#e6e6e6"
 colorSecondary = "#aaa"
-pages = 2
+pages = 1
 
 # Multi language support
 [languages]
