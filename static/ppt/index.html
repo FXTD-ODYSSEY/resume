@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title></title>
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+
+
+    <script defer src="dist/fontawesome/all.min.js"></script>
+
+	<script type="text/javascript">
+		var forgetPop = true;
+		function onPopState(event) {
+			if(forgetPop){
+				forgetPop = false;
+			} else {
+				parent.postMessage(event.target.location.href, "app://obsidian.md");
+			}
+        }
+		window.onpopstate = onPopState;
+		window.onmessage = event => {
+			if(event.data == "reload"){
+				window.document.location.reload();
+			}
+			forgetPop = true;
+		}
+
+		function fitElements(){
+			const itemsToFit = document.getElementsByClassName('fitText');
+			for (const item in itemsToFit) {
+				if (Object.hasOwnProperty.call(itemsToFit, item)) {
+					var element = itemsToFit[item];
+					fitElement(element,1, 1000);
+					element.classList.remove('fitText');
+				}
+			}
+		}
+
+		function fitElement(element, start, end){
+
+			let size = (end + start) / 2;
+			element.style.fontSize = `${size}px`;
+
+			if(Math.abs(start - end) < 1){
+				while(element.scrollHeight > element.offsetHeight){
+					size--;
+					element.style.fontSize = `${size}px`;
+				}
+				return;
+			}
+
+			if(element.scrollHeight > element.offsetHeight){
+				fitElement(element, start, size);
+			} else {
+				fitElement(element, size, end);
+			}		
+		}
+
+
+		document.onreadystatechange = () => {
+			fitElements();
+			if (document.readyState === 'complete') {
+				if (window.location.href.indexOf("?export") != -1){
+					parent.postMessage(event.target.location.href, "app://obsidian.md");
+				}
+				if (window.location.href.indexOf("print-pdf") != -1){
+					let stateCheck = setInterval(() => {
+						clearInterval(stateCheck);
+						window.print();
+					}, 250);
+				}
+			}
+	};
+
+
+        </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+
+<!-- METADATA -->
+
+
+Timmy Liang Work Experience
+
+</script></section><section ><section data-markdown><script type="text/template">
+📦OpenSource Project
+</script></section><section data-markdown><script type="text/template">
+<div style="width: 100%;">
+  <div style="width: 50%; float: left;">
+  QBinder 
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/02_edit.gif" alt="" ></img></p>
+
+  
+  [Github Repo](https://blog.l0v0.com/posts/301b3c35.html)   
+  [Dev Blog](https://blog.l0v0.com/posts/301b3c35.html)
+  </div>
+  <div style="width: 50%; float: right;">
+  Qt overlay widget
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/04.gif" alt="" ></img></p>
+
+  [Github Repo](https://github.com/FXTD-ODYSSEY/dayu_widgets_overlay)  
+  [Dev Blog](https://blog.l0v0.com/posts/1ba28015.html)
+  </div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+<div style="width: 100%;">
+  <div style="width: 50%; float: left;">
+  mpdb Maya Debugger 
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/02 1.gif" alt="" ></img></p>
+
+  
+  [Github Repo](https://github.com/FXTD-ODYSSEY/mpdb)   
+  [Dev Blog](https://blog.l0v0.com/posts/13258e66.html)
+  </div>
+  <div style="width: 50%; float: right;">
+  MayaPy VScode Extension
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/Pasted image 20220710231000.png" alt="" ></img></p>
+
+  [Github Repo](https://github.com/FXTD-ODYSSEY/vscode-mayapy)  
+  [Dev Blog](https://blog.l0v0.com/posts/4d164b82.html)
+  </div>
+</div>
+
+
+</script></section><section data-markdown><script type="text/template">
+<div style="width: 100%;">
+  <div style="width: 50%; float: left;">
+  Unreal-PyToolkit 
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/Pasted image 20220710232430.png" alt="" ></img></p>
+
+  
+  [Github Repo](https://github.com/FXTD-ODYSSEY/Unreal-PyToolkit)   
+  [Dev Blog](https://blog.l0v0.com/categories/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/Unreal/Python/)
+  </div>
+  <div style="width: 50%; float: right;">
+  renderdoc2fbx
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/Pasted image 20220710232446.png" alt="" ></img></p>
+
+  [Github Repo](https://github.com/FXTD-ODYSSEY/renderdoc2fbx)  
+  [Dev Blog](https://blog.l0v0.com/posts/c12b915c.html)
+  </div>
+</div>
+</script></section><section data-markdown><script type="text/template">
+
+<div style="width: 100%;">
+  <div style="width: 50%; float: left;">
+    CMakeMaya
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/Pasted image 20220715223317.png" alt="" ></img></p>
+
+[Repo](https://github.com/FXTD-ODYSSEY/CMakeMaya)
+
+compile C++ easier
+  </div>
+  <div style="width: 50%; float: right;">
+  HotReload Deformer
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/Pasted image 20220715224220.png" alt="" ></img></p>
+
+  C++ Deformer
+  </div>
+</div>
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="https://resume.l0v0.com/fanta.ico" alt="icon|128" style="width: 128px"></img></p>
+
+Fanta Wild
+
+Sep 2018 - Nov 2019</script></section><section data-markdown><script type="text/template">
+<div style="width: 100%;">
+  <div style="width: 50%; float: left;">
+  Maya Publish Pipeline
+
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/Pasted image 20220710220640.png" alt="" style="width: 500px"></img></p>
+
+
+[Maya Publish Pipeline](https://blog.l0v0.com/posts/404240a4.html)
+  </div>
+  <div style="width: 50%; float: right;">
+    Maya Digtial Human
+
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/Pasted image 20220710220824.png" alt="" style="width: 500px"></img></p>
+
+
+[Maya Python Rigging](https://blog.l0v0.com/posts/f6cd0ecb.html)
+  </div>
+</div>
+
+
+</script></section><section data-markdown><script type="text/template">
+
+<div style="width: 100%;">
+  <div style="width: 50%; float: left;">
+OpenMaya Node Dev
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/Pasted image 20220710221346.png" alt="" style="width: 500px"></img></p>
+
+
+[Maya Python Plugin](https://blog.l0v0.com/posts/f62b6398.html)
+  </div>
+  <div style="width: 50%; float: right;">
+Maya C++
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/02.gif" alt="" style="width: 500px"></img></p>
+
+
+[Maya C++ Development](https://blog.l0v0.com/posts/5fce3fcb.html)
+  </div>
+</div>
+
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/Pasted image 20220710221956.jpg" alt="" style="width: 128px"></img></p>
+
+ MoreFun Studio
+
+Nov 2019 - Sep 2021</script></section><section data-markdown><script type="text/template">
+<div style="width: 100%;">
+  <div style="width: 50%; float: left;">
+Python App Launcher
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/07.gif" alt="" style="width: 500px"></img></p>
+
+
+[AppManager](https://blog.l0v0.com/posts/e5e36cb9.html) (COS)
+  </div>
+  <div style="width: 50%; float: right;">
+PhotoShop Tool Dev
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/Pasted image 20220710222132.png" alt="" style="width: 500px"></img></p>
+
+
+[Photoshop Dev Guide](https://blog.l0v0.com/posts/2c964fd8.html)  
+[ImageMagick](https://blog.l0v0.com/posts/44f69d3.html)
+  </div>
+</div>
+</script></section><section data-markdown><script type="text/template">
+Pyblish Framework
+
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/Pasted image 20220710222316.png" alt="" ></img></p>
+
+
+[Pyblish CVEI](https://blog.l0v0.com/posts/88ab5ea.html)
+</script></section><section data-markdown><script type="text/template">
+
+Unreal Python Pipeline
+
+
+<div style="width: 100%;">
+  <div style="width: 50%; float: left;">
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/Pasted image 20220710222428.png" alt="" style="width: 400px"></img></p>
+
+  [Material Transfer Tool](https://blog.l0v0.com/posts/34fd0fc0.html)
+  </div>
+  <div style="width: 50%; float: right;"><br>
+    <video src="//cdn.jsdelivr.net/gh/FXTD-odyssey/FXTD-odyssey.github.io@master/post_img/2b15ceb/04.mp4" controls autoplay loop style="width: 100%; height:100%;"></video>
+    
+[Python UMG](https://blog.l0v0.com/posts/2b15ceb.html)
+  </div>
+</div>
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/Pasted image 20220710230236.jpg" alt="" style="width: 128px"></img></p>
+
+LightSpeed Studio
+
+Sep 2021 - Present
+</script></section><section data-markdown><script type="text/template">
+<div style="width: 100%;">
+  <div style="width: 50%; float: left;">
+  Pose Editor 
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/Pasted image 20220711080037.png" alt="" ></img></p>
+
+MetaHuman Editing Tool
+  </div>
+  <div style="width: 50%; float: right;">
+  Rig Editor
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/Pasted image 20220711080209.png" alt="" ></img></p>
+
+  Controller Editing Tool
+  </div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+mGear Rigging Framework
+
+<p style="line-height: 0" class="reset-paragraph image-paragraph"><img src="📎Attachment/favicon.jpg" alt="" style="width: 200px"></img></p>
+
+</script></section></section><section  data-markdown><script type="text/template">
+
+
+Thank you
+</script></section></div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+	<script src="plugin/mermaid/mermaid.js"></script>
+	<script src="plugin/chart/chart.min.js"></script>
+	<script src="plugin/chart/plugin.js"></script>
+	<script src="plugin/customcontrols/plugin.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+	  function isLight(color) {
+		let hex = color.replace('#', '');
+
+		// convert #fff => #ffffff
+		if(hex.length == 3){
+			hex = `${hex[0]}${hex[0]}${hex[1]}${hex[1]}${hex[2]}${hex[2]}`;
+		}
+
+		const c_r = parseInt(hex.substr(0, 2), 16);
+		const c_g = parseInt(hex.substr(2, 2), 16);
+		const c_b = parseInt(hex.substr(4, 2), 16);
+		const brightness = ((c_r * 299) + (c_g * 587) + (c_b * 114)) / 1000;
+		return brightness > 155;
+	}
+
+	var bgColor = getComputedStyle(document.documentElement).getPropertyValue('--r-background-color').trim();
+
+	if(isLight(bgColor)){
+		document.body.classList.add('has-light-background');
+	} else {
+		document.body.classList.add('has-dark-background');
+	}
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath.MathJax3,
+		  RevealMermaid,
+		  RevealChart,
+		  RevealCustomControls,
+        ],
+
+		mathjax3: {
+			mathjax: 'plugin/math/mathjax/tex-mml-chtml.js',
+		},
+
+		customcontrols: {
+			controls: [
+			]
+		},
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":false,"transition":"slide","transitionSpeed":"default"}, queryOptions);
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
