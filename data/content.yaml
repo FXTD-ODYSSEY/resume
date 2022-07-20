@@ -3,7 +3,7 @@ BasicInfo:
   Certificate: 粤ICP备19055327号-1
   FirstName: Timmy
   LastName: Liang
-  Photo: /avatar.jpg
+  Photo: /avatar.png
   Age: 1998
   AgeLabel: Age
   Sex: Male
@@ -16,7 +16,7 @@ BasicInfo:
     - Icon: fa fa-weixin
       Info: WeChat <a href="https://blog.l0v0.com/about/wechat.jpg" target="_blank">abc18929007908</a>
 
-Profile: "Nation: <b>China</b><br>Birth Date: <b>1998.12</b>"
+# Profile: "Nation: <b>China</b><br>Birth Date: <b>1998.12</b>"
 
 Education:
   - Course: <a href="https://www.gdut.edu.cn/">GuangDong University of Technology</a> - B.S
@@ -29,14 +29,14 @@ Experience:
     Icon: /tencent.ico
     Place: China
     Positions:
-      - Title: LIGHTSPEED STUDIOS - Tool TA
+      - Title: LIGHTSPEED STUDIOS - Senior Tool TA
         Date: Sep 2021 - Present
         Details:
           - Build a digital human pipeline editing tool
           - Learn the rez environment and ci process
           - Deploy mGear Rigging System to Project
         Badges: ["Python", "Maya", "Pipeline", "Qt", "Digital Human"]
-      - Title: MoreFun Studio - Tool TA
+      - Title: MoreFun Studio - Junior Tool TA
         Date: Nov 2019 - Sep 2021
         Details:
           - Maya Unreal Asset Publish Pipeline base on Pyblish framework
@@ -49,7 +49,7 @@ Experience:
     Icon: /fanta.ico
     Place: China
     Positions:
-      - Title: Pipeline TD <span style="background:#adcdf4;color:white;font-size:3px;padding:3px;border-radius:30%">Intern</span>
+      - Title: Junior Pipeline TD <span style="background:#adcdf4;color:white;font-size:3px;padding:3px;border-radius:30%">Intern</span>
         Date: Sep 2018 - Nov 2019
         Details:
           - InHouse Publish Framework Design & Development
@@ -58,6 +58,15 @@ Experience:
           - Pipeline problem solver
         Badges: ["Python", "Maya", "Qt", "Pipeline"]
   
+Abilities:
+  - Info: <b>Pipeline Development</b>
+  - Info: <b>Python Qt Interface Development</b>
+  - Info: <b>Unreal Python Development</b>
+  - Info: <b>Maya Python Development</b>
+  - Info: <b>Maya Rigging Development</b>
+  - Info: Houdini PCG
+  - Info: Shader Development
+  - Info: Web Development
 
 Links: 
   - Icon: fa fa-desktop
@@ -127,51 +136,33 @@ Links:
 #         Details:
 #           - Automatically take screen stitching pictures
 
-# Diplomas:
-#   - China CET-4 (2016)
-#   - China CET-6 (2017)
 
-Skills:
-  - Family: Programming Language
-    Items:
-      - Python
-      - HTML
-      - Javascript
-      - CSS
-      - C++
-  - Family: DCC SoftWare
-    Items:
-      - Maya
-      - Unreal
-      - Photoshop
-      - Blender
-      - Houdini
 
-Techniques:
-  - Name: <b>Python Qt Interface Development</b>
-    Percent: 100%
-    Handle: "Expert"
-  - Name: <b>Unreal Python Development</b>
-    Percent: 100%
-    Handle: "Expert"
-  - Name: <b>Maya Python Development</b>
-    Percent: 100%
-    Handle: "Expert"
-  - Name: <b>Maya Rigging Development</b>
-    Percent: 70%
-    Handle: "Proficient"
-  - Name: <b>Maya C++ Development</b>
-    Percent: 70%
-    Handle: "Proficient"
-  - Name: <b>Web Development</b>
-    Percent: 70%
-    Handle: "Proficient"
-  - Name: <b>Shader Development</b>
-    Percent: 50%
-    Handle: "Competent"
-  - Name: <b>Houdini</b>
-    Percent: 50%
-    Handle: "Competent"
+# Techniques:
+#   - Name: <b>Python Qt Interface Development</b>
+#     Percent: 100%
+#     Handle: "Expert"
+#   - Name: <b>Unreal Python Development</b>
+#     Percent: 100%
+#     Handle: "Expert"
+#   - Name: <b>Maya Python Development</b>
+#     Percent: 100%
+#     Handle: "Expert"
+#   - Name: <b>Maya Rigging Development</b>
+#     Percent: 70%
+#     Handle: "Proficient"
+#   - Name: <b>Maya C++ Development</b>
+#     Percent: 70%
+#     Handle: "Proficient"
+#   - Name: <b>Web Development</b>
+#     Percent: 70%
+#     Handle: "Proficient"
+#   - Name: <b>Shader Development</b>
+#     Percent: 50%
+#     Handle: "Competent"
+#   - Name: <b>Houdini</b>
+#     Percent: 50%
+#     Handle: "Competent"
 
 # Languages:
 #   - Name: Portuguese
@@ -183,7 +174,24 @@ Techniques:
 #   - Name: German
 #     Level: B1
 
+# Diplomas:
+#   - China CET-4 (2016)
+#   - China CET-6 (2017)
 
+Skills:
+  - Family: Programming Language
+    Items:
+      - C++
+      - Python
+      - Javascript
+  - Family: DCC SoftWare
+    Items:
+      - Maya
+      - Unreal
+      - Houdini
+      - Blender
+      - Photoshop
+      
 Interests:
   - <li class="contact__item" style="text-align:left"><i class="fa fa-music" aria-hidden="true"></i> Music</li>
   - <li class="contact__item" style="text-align:left"><i class="fa fa-street-view" aria-hidden="true"></i> Sport</li>

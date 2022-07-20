@@ -20,6 +20,7 @@
             </li>
         </ul>
     </div>
+    {{ if .Techniques }}
     <hr style="margin: 5px 0px">
     {{ range .Techniques }}
     {{.Name | safeHTML}}
@@ -31,6 +32,7 @@
         {{.Handle | safeHTML}}
     </div>
 
+    {{ end }}
     {{ end }}
 </div>
 <style>

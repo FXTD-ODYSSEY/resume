@@ -3,7 +3,7 @@ BasicInfo:
   Certificate: 粤ICP备19055327号-1
   FirstName: 梁伟添
   LastName: TimmyLiang
-  Photo: /avatar.jpg
+  Photo: /avatar.png
   Age: 1998
   AgeLabel: 年龄
   Sex: 男
@@ -16,7 +16,7 @@ BasicInfo:
     - Icon: fa fa-weixin
       Info: 微信 <a href="https://blog.l0v0.com/about/wechat.jpg" target="_blank">abc18929007908</a>
 
-Profile: "民族: <b>汉族</b><br>籍贯: <b>广东新会</b><br>政治面貌: <b>中共党员</b><br>出生年月: <b>1998年12月</b>"
+# Profile: "民族: <b>汉族</b><br>籍贯: <b>广东新会</b><br>政治面貌: <b>中共党员</b><br>出生年月: <b>1998年12月</b>"
 
 Education:
   - Course: <a href="https://www.gdut.edu.cn/">广东工业大学</a> - 理科学士
@@ -29,14 +29,14 @@ Experience:
     Icon: /tencent.ico
     Place: 广东深圳
     Positions:
-      - Title: 光子工作室 - 工具TA
+      - Title: 光子工作室 - 资深工具TA
         Date: 2021-9 至今
         Details:
           - 搭建数字人管线编辑工具
           - 学习 rez 环境 ci 构建流程
           - mgear 绑定流程接入
         Badges: ["Python", "Maya", "流程开发", "Qt", "数字人"]
-      - Title: 魔方工作室 - 工具TA
+      - Title: 魔方工作室 - 初级工具TA
         Date: 2018-11 至 2021-09
         Details:
           - 基于 Pyblish 搭建 Maya Unreal 质检流程
@@ -49,7 +49,7 @@ Experience:
     Icon: /fanta.ico
     Place: 广东深圳
     Positions:
-      - Title: 流程TD <span style="background:#adcdf4;color:white;font-size:3px;padding:3px;border-radius:30%">实习</span>
+      - Title: 初级流程TD <span style="background:#adcdf4;color:white;font-size:3px;padding:3px;border-radius:30%">实习</span>
         Date: 2018-11 至 2019-11
         Details:
           - Publish 检查框架编写
@@ -58,11 +58,22 @@ Experience:
           - 协助产线解决问题
         Badges: ["Python", "Maya", "Qt", "流程开发"]
 
+
+Abilities:
+  - Info: <b>Pipeline 开发</b>
+  - Info: <b>Python Qt 界面开发</b>
+  - Info: <b>Unreal Python 开发</b>
+  - Info: <b>Maya Python 开发</b>
+  - Info: <b>Maya Rigging 开发</b>
+  - Info: Houdini 程序化
+  - Info: Shader 开发
+  - Info: Web 开发
+  
 Links:
   - Icon: fa fa-desktop
-    Info: 工作经历 <a href="/ppt" target="_blank">展示</a>
+    Info: 工作经历展示 <a href="/ppt" target="_blank">https://resume.l0v0.com/ppt</a>
   - Icon: fa fa-github
-    Info: 开源 <a href="https://github.com/FXTD-ODYSSEY" target="_blank">项目</a>
+    Info: 开源项目展示 <a href="https://github.com/FXTD-ODYSSEY" target="_blank">https://github.com/FXTD-ODYSSEY</a>
   - Icon: fa fa-globe
     Info: 博客 <a href="https://blog.l0v0.com" target="_blank">blog.l0v0.com</a>
 
@@ -126,6 +137,34 @@ Links:
 #         Details:
 #           - 自动拍屏拼接图片
 
+
+
+# Techniques:
+#   - Name: <b>Python Qt 界面开发</b>
+#     Percent: 100%
+#     Handle: "精通"
+#   - Name: <b>Unreal Python 开发</b>
+#     Percent: 100%
+#     Handle: "精通"
+#   - Name: <b>Maya Python 开发</b>
+#     Percent: 100%
+#     Handle: "精通"
+#   - Name: <b>Maya Rigging 开发</b>
+#     Percent: 70%
+#     Handle: "掌握"
+#   - Name: <b>Maya C++ 开发</b>
+#     Percent: 70%
+#     Handle: "掌握"
+#   - Name: <b>Web 开发</b>
+#     Percent: 70%
+#     Handle: "掌握"
+#   - Name: <b>Shader 开发</b>
+#     Percent: 50%
+#     Handle: "一般"
+#   - Name: <b>Houdini</b>
+#     Percent: 50%
+#     Handle: "一般"
+
 Diplomas:
   - CET4 英语4级 (2016)
   - CET6 英语6级 (2017)
@@ -133,45 +172,17 @@ Diplomas:
 Skills:
   - Family: 编程语言
     Items:
-      - Python
-      - HTML
-      - Javascript
-      - CSS
       - C++
+      - Python
+      - Javascript
   - Family: DCC 软件
     Items:
       - Maya
       - Unreal
-      - Photoshop
-      - Blender
       - Houdini
-
-Techniques:
-  - Name: <b>Python Qt 界面开发</b>
-    Percent: 100%
-    Handle: "精通"
-  - Name: <b>Unreal Python 开发</b>
-    Percent: 100%
-    Handle: "精通"
-  - Name: <b>Maya Python 开发</b>
-    Percent: 100%
-    Handle: "精通"
-  - Name: <b>Maya Rigging 开发</b>
-    Percent: 70%
-    Handle: "掌握"
-  - Name: <b>Maya C++ 开发</b>
-    Percent: 70%
-    Handle: "掌握"
-  - Name: <b>Web 开发</b>
-    Percent: 70%
-    Handle: "掌握"
-  - Name: <b>Shader 开发</b>
-    Percent: 50%
-    Handle: "一般"
-  - Name: <b>Houdini</b>
-    Percent: 50%
-    Handle: "一般"
-
+      - Blender
+      - Photoshop
+      
 Interests:
   - <li class="contact__item" style="text-align:left"><i class="fa fa-music" aria-hidden="true"></i> 音乐</li>
   - <li class="contact__item" style="text-align:left"><i class="fa fa-street-view" aria-hidden="true"></i> 运动</li>

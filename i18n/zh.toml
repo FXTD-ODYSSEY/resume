@@ -13,6 +13,9 @@ other = "教育背景"
 [skills]
 other = "技能"
 
+[ability]
+other = "能力"
+
 [languages]
 other = "语言"
 

@@ -1,0 +1,23 @@
+{{ if .Abilities }}
+<div id="education" class="section">
+    <div class="section__heading">
+        <h2 class="section__title">
+            <i class="icon fa fa-link" aria-hidden="true"></i>
+            {{ i18n "ability" }}
+        </h2>
+    </div>
+    <div class="section__content" style='display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas:". .";'>
+        {{ range .Abilities }}
+            <li class="references__contact experience__job">
+                <i class="{{ .Icon }}"></i><span>{{ .Info | safeHTML }}</span>
+            </li>
+        {{ end }}
+        
+    </div>
+</div>
+
+{{ end }}
