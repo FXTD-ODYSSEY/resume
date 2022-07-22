@@ -81,11 +81,11 @@ OpenSource:
         Repo: QBinder
 
 Links:
-  - Icon: fa fa-desktop
+  - Icon: iconfont icon-PPT
     Info: Work Experience <a href="/ppt" target="_blank">Presentation</a>
-  - Icon: fa fa-github
+  - Icon: iconfont icon-github
     Info: Github <a href="https://github.com/FXTD-ODYSSEY" target="_blank">Profile</a>
-  - Icon: fa fa-globe
+  - Icon: iconfont icon-blogger
     Info: Blog <a href="https://blog.l0v0.com" target="_blank">blog.l0v0.com</a>
 
 # Projects:

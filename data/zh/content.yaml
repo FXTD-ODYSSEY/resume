@@ -81,17 +81,15 @@ OpenSource:
         Repo: QBinder
 
 Links:
-  - Icon: fa fa-desktop
+  - Icon: iconfont icon-PPT
     Info: 工作经历展示 <a href="/ppt" target="_blank">https://resume.l0v0.com/ppt</a>
-  - Icon: fa fa-github
+  - Icon: iconfont icon-github
     Info: Github 开源项目 <a href="https://github.com/FXTD-ODYSSEY" target="_blank">https://github.com/FXTD-ODYSSEY</a>
-  - Icon: fa fa-globe
+  - Icon: iconfont icon-blogger
     Info: 博客 <a href="https://blog.l0v0.com" target="_blank">blog.l0v0.com</a>
   - Icon: iconfont icon-bilibili
-    Style: "background:none"
     Info: B站 <a href="https://space.bilibili.com/12895307" target="_blank">www.bilibili.com</a>
   - Icon: iconfont icon-zhihu
-    Style: "background:none"
     Info: 知乎 <a href="https://www.zhihu.com/people/zhi-shang-di-83-40" target="_blank">www.zhihu.com</a>
 
 # Projects:

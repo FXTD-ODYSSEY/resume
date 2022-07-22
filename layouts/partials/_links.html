@@ -8,8 +8,8 @@
     </div>
     <div class="section__content">
         {{ range .Links }}
-            <li class="references__contact experience__job">
-                <i class="{{ .Icon }}" style="{{ .Style }}"></i><span>{{ .Info | safeHTML }}</span>
+            <li class="experience__job">
+                <i class="{{ .Icon }}"></i> &nbsp;<span>{{ .Info | safeHTML }}</span>
             </li>
         {{ end }}
         
