@@ -58,7 +58,6 @@ Experience:
           - 协助产线解决问题
         Badges: ["Python", "Maya", "Qt", "流程开发"]
 
-
 # Abilities:
 #   - Info: <b>Pipeline 开发</b>
 #   - Info: <b>Python Qt 界面开发</b>
@@ -68,12 +67,24 @@ Experience:
 #   - Info: Houdini 程序化
 #   - Info: Shader 开发
 #   - Info: Web 开发
-  
+
+OpenSource:
+  - Project:
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/renderdoc2fbx">renderdoc2fbx</a>
+        Owner: FXTD-ODYSSEY
+        Repo: renderdoc2fbx
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/Unreal-PyToolkit">Unreal-PyToolkit</a>
+        Owner: FXTD-ODYSSEY
+        Repo: Unreal-PyToolkit
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/QBinder">QBinder</a>
+        Owner: FXTD-ODYSSEY
+        Repo: QBinder
+
 Links:
   - Icon: fa fa-desktop
     Info: 工作经历展示 <a href="/ppt" target="_blank">https://resume.l0v0.com/ppt</a>
   - Icon: fa fa-github
-    Info: 开源项目展示 <a href="https://github.com/FXTD-ODYSSEY" target="_blank">https://github.com/FXTD-ODYSSEY</a>
+    Info: Github 开源项目 <a href="https://github.com/FXTD-ODYSSEY" target="_blank">https://github.com/FXTD-ODYSSEY</a>
   - Icon: fa fa-globe
     Info: 博客 <a href="https://blog.l0v0.com" target="_blank">blog.l0v0.com</a>
   - Icon: iconfont icon-bilibili
@@ -143,7 +154,19 @@ Links:
 #         Details:
 #           - 自动拍屏拼接图片
 
-
+Skills:
+  - Family: 编程语言
+    Items:
+      - C++
+      - Python
+      - Javascript
+  - Family: DCC 软件
+    Items:
+      - Maya
+      - Unreal
+      - Houdini
+      - Blender
+      - Photoshop
 
 Techniques:
   - Name: <b>Python Qt 界面开发</b>
@@ -170,7 +193,6 @@ Techniques:
   - Name: <b>Houdini</b>
     Percent: 50%
     Handle: "一般"
-
 # Diplomas:
 #   - CET4 英语4级 (2016)
 #   - CET6 英语6级 (2017)
@@ -181,17 +203,3 @@ Techniques:
 #   - <li class="contact__item" style="text-align:left"><i class="fa fa-play-circle" aria-hidden="true"></i> 动漫</li>
 #   - <li class="contact__item" style="text-align:left"><i class="fa fa-flask" aria-hidden="true"></i> 技术</li>
 
-
-Skills:
-  - Family: 编程语言
-    Items:
-      - C++
-      - Python
-      - Javascript
-  - Family: DCC 软件
-    Items:
-      - Maya
-      - Unreal
-      - Houdini
-      - Blender
-      - Photoshop

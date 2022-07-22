@@ -2,7 +2,7 @@
 <html lang="en">
     {{ partial "head.html" . }}
 <body>
-    <!-- {{ partial "_i18n.html" . }} -->
+    {{ partial "_i18n.html" . }}
     <div class="content">
         <div class="content__left">
             {{ $data := or (index .Site.Data .Site.Language.Lang).content .Site.Data.content }}
@@ -12,8 +12,9 @@
             {{ partial "_education.html" $data }}
             {{ partial "_experience.html" $data }}
             {{ partial "_references.html" $data }}
-            {{ partial "_projects.html" $data  }}
             {{ partial "_abilities.html" $data  }}
+            {{ partial "_projects.html" $data  }}
+            {{ partial "_open_source.html" $data  }}
             {{ partial "_links.html" $data  }}
 
         </div>

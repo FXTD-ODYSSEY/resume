@@ -1,0 +1,80 @@
+{{ if .OpenSource }}
+<div id="experience" class="section">
+    <div class="section__heading">
+        <h2 class="section__title">
+            <i class="icon fa fa-cubes" aria-hidden="true"></i>
+            {{ i18n "open_source" }}
+        </h2>
+    </div>
+    <div class="section__content">
+        <div class="experience">
+            {{ range .OpenSource }}
+            {{ $style := "display:block"}}
+            {{ if .Icon }}
+            {{ $style = ""}}
+            {{ end }}
+            <div class="experience__item">
+                {{ range .Project }}
+                <div class="experience__job">
+                    <div class="experience__subheader">
+                        <h3 class="experience__position">
+                            {{ .Title | safeHTML}}
+                        </h3>
+                        {{ if .Repo}}
+                            <h3 class="experience__date repo_{{.Repo}}"></h3>
+                            <script type="module">
+                                import { Octokit } from "https://cdn.skypack.dev/@octokit/rest";
+                                const octokit = new Octokit({ auth: `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` });
+                            
+                                const response = await octokit.request("GET /repos/{owner}/{repo}", {
+                                    owner: '{{.Owner}}',
+                                    repo: '{{.Repo}}'
+                                });
+                                let stars = response.data.stargazers_count
+                                let forks = response.data.forks_count
+                                let element = document.querySelector('.repo_{{.Repo}}')
+                                element.innerHTML = `<span class="experience__badge github_fixed">${stars}</span> Star <span class="experience__badge github_fixed">${forks}</span> Fork`
+                            </script>
+                        {{ end }}
+                    </div>
+                    <ul>
+                        {{ range .Details }}
+                        <li class="experience__bullet">{{ . }}</li>
+                        {{ end }}
+                    </ul>
+                    <div class="experience__badges">
+                        <ul>
+                            {{ range .Badges }}
+                            <li class="experience__badge">{{ . }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+
+<style>
+    .github_fixed{
+        text-align: center;
+        width: 25px;
+    }
+    .experience__container {
+        display: grid;
+        grid-template-columns: 1fr 10fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+            ". .";
+        padding-bottom: 5px;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+</style>
+{{ end }}

@@ -49,30 +49,42 @@ Experience:
     Icon: /fanta.ico
     Place: China
     Positions:
-      - Title: Junior Pipeline TD <span style="background:#adcdf4;color:white;font-size:3px;padding:3px;border-radius:30%">Intern</span>
+      - Title: Junior Pipeline TD <span class="experience__badge" style="background:#adcdf4">Intern</span>
         Date: Sep 2018 - Nov 2019
         Details:
           - InHouse Publish Framework Design & Development
           - Generate Qt Interface base XML Configuration
-          - Maya RBF Driver for Facial Rigging 
+          - Maya RBF Driver for Facial Rigging
           - Pipeline problem solver
         Badges: ["Python", "Maya", "Qt", "Pipeline"]
-  
-Abilities:
-  - Info: <b>Pipeline Development</b>
-  - Info: <b>Python Qt Interface Development</b>
-  - Info: <b>Unreal Python Development</b>
-  - Info: <b>Maya Python Development</b>
-  - Info: <b>Maya Rigging Development</b>
-  - Info: Houdini PCG
-  - Info: Shader Development
-  - Info: Web Development
 
-Links: 
+# Abilities:
+#   - Info: <b>Pipeline Development</b>
+#   - Info: <b>Python Qt Interface Development</b>
+#   - Info: <b>Unreal Python Development</b>
+#   - Info: <b>Maya Python Development</b>
+#   - Info: <b>Maya Rigging Development</b>
+#   - Info: Houdini PCG
+#   - Info: Shader Development
+#   - Info: Web Development
+
+OpenSource:
+  - Project:
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/renderdoc2fbx">renderdoc2fbx</a>
+        Owner: FXTD-ODYSSEY
+        Repo: renderdoc2fbx
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/Unreal-PyToolkit">Unreal-PyToolkit</a>
+        Owner: FXTD-ODYSSEY
+        Repo: Unreal-PyToolkit
+      - Title: <a href="https://github.com/FXTD-ODYSSEY/QBinder">QBinder</a>
+        Owner: FXTD-ODYSSEY
+        Repo: QBinder
+
+Links:
   - Icon: fa fa-desktop
     Info: Work Experience <a href="/ppt" target="_blank">Presentation</a>
   - Icon: fa fa-github
-    Info: Open Source <a href="https://github.com/FXTD-ODYSSEY" target="_blank">Project</a>
+    Info: Github <a href="https://github.com/FXTD-ODYSSEY" target="_blank">Profile</a>
   - Icon: fa fa-globe
     Info: Blog <a href="https://blog.l0v0.com" target="_blank">blog.l0v0.com</a>
 
@@ -100,7 +112,7 @@ Links:
 #       - Title: <a href="https://github.com/FXTD-ODYSSEY/QBinder">QBinder</a>
 #         Description: Python Qt Data Binding Framework
 #         Details:
-#           - Binding data with lambda parameters make life easier 
+#           - Binding data with lambda parameters make life easier
 #           - Data is automatically dumped and loaded
 #           - QEventHook for global event hook
 #       - Title: <a href="https://github.com/FXTD-ODYSSEY/pyuiw">pyuiw</a>
@@ -116,7 +128,7 @@ Links:
 #         Description: Python FBX Exporter
 #         Details:
 #           - Create Renderdoc Interface with PySide2
-#           - Support VertexColor UV Normal Tangent Information 
+#           - Support VertexColor UV Normal Tangent Information
 #   - Type: Maya
 #     Icon: /maya.png
 #     Project:
@@ -136,55 +148,6 @@ Links:
 #         Details:
 #           - Automatically take screen stitching pictures
 
-
-
-# Techniques:
-#   - Name: <b>Python Qt Interface Development</b>
-#     Percent: 100%
-#     Handle: "Expert"
-#   - Name: <b>Unreal Python Development</b>
-#     Percent: 100%
-#     Handle: "Expert"
-#   - Name: <b>Maya Python Development</b>
-#     Percent: 100%
-#     Handle: "Expert"
-#   - Name: <b>Maya Rigging Development</b>
-#     Percent: 70%
-#     Handle: "Proficient"
-#   - Name: <b>Maya C++ Development</b>
-#     Percent: 70%
-#     Handle: "Proficient"
-#   - Name: <b>Web Development</b>
-#     Percent: 70%
-#     Handle: "Proficient"
-#   - Name: <b>Shader Development</b>
-#     Percent: 50%
-#     Handle: "Competent"
-#   - Name: <b>Houdini</b>
-#     Percent: 50%
-#     Handle: "Competent"
-
-# Languages:
-#   - Name: Portuguese
-#     Level: Native
-#   - Name: English
-#     Level: C2
-#   - Name: Spanish
-#     Level: B1
-#   - Name: German
-#     Level: B1
-
-# Diplomas:
-#   - China CET-4 (2016)
-#   - China CET-6 (2017)
-
-# Interests:
-#   - <li class="contact__item" style="text-align:left"><i class="fa fa-music" aria-hidden="true"></i> Music</li>
-#   - <li class="contact__item" style="text-align:left"><i class="fa fa-street-view" aria-hidden="true"></i> Sport</li>
-#   - <li class="contact__item" style="text-align:left"><i class="fa fa-play-circle" aria-hidden="true"></i> Anim</li>
-#   - <li class="contact__item" style="text-align:left"><i class="fa fa-flask" aria-hidden="true"></i> Tech</li>
-
-
 Skills:
   - Family: Programming Language
     Items:
@@ -198,3 +161,39 @@ Skills:
       - Houdini
       - Blender
       - Photoshop
+
+Techniques:
+  - Name: <b>Python Qt Interface Development</b>
+    Percent: 100%
+    Handle: "Expert"
+  - Name: <b>Unreal Python Development</b>
+    Percent: 100%
+    Handle: "Expert"
+  - Name: <b>Maya Python Development</b>
+    Percent: 100%
+    Handle: "Expert"
+  - Name: <b>Maya Rigging Development</b>
+    Percent: 70%
+    Handle: "Proficient"
+  - Name: <b>Maya C++ Development</b>
+    Percent: 70%
+    Handle: "Proficient"
+  - Name: <b>Web Development</b>
+    Percent: 70%
+    Handle: "Proficient"
+  - Name: <b>Shader Development</b>
+    Percent: 50%
+    Handle: "Competent"
+  - Name: <b>Houdini</b>
+    Percent: 50%
+    Handle: "Competent"
+# Diplomas:
+#   - China CET-4 (2016)
+#   - China CET-6 (2017)
+
+# Interests:
+#   - <li class="contact__item" style="text-align:left"><i class="fa fa-music" aria-hidden="true"></i> Music</li>
+#   - <li class="contact__item" style="text-align:left"><i class="fa fa-street-view" aria-hidden="true"></i> Sport</li>
+#   - <li class="contact__item" style="text-align:left"><i class="fa fa-play-circle" aria-hidden="true"></i> Anim</li>
+#   - <li class="contact__item" style="text-align:left"><i class="fa fa-flask" aria-hidden="true"></i> Tech</li>
+

@@ -5,6 +5,9 @@ other = "基本信息"
 other = "工作经历"
 
 [projects]
+other = "项目"
+
+[open_source]
 other = "开源项目"
 
 [education]

@@ -21,12 +21,12 @@
         </ul>
     </div>
     {{ if .Techniques }}
-    <hr style="margin: 5px 0px">
+    <hr style="margin: 10px 0px">
     {{ range .Techniques }}
     {{.Name | safeHTML}}
-    <div class="progress__container">
-        <div class="w3-light-grey w3-round">
-            <div class="w3-container w3-round w3-blue" style="width:{{.Percent}};height:100%;"></div>
+    <div class="progress__container" style="align-items: center;">
+        <div class="w3-light-grey w3-round" style="height:20%;">
+            <div class="w3-container w3-round" style="background:#5da9e4;width:{{.Percent}};height:100%;"></div>
         </div>
         &nbsp;
         {{.Handle | safeHTML}}
