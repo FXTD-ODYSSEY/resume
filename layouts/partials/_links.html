@@ -9,7 +9,7 @@
     <div class="section__content">
         {{ range .Links }}
             <li class="references__contact experience__job">
-                <i class="{{ .Icon }}"></i><span>{{ .Info | safeHTML }}</span>
+                <i class="{{ .Icon }}" style="{{ .Style }}"></i><span>{{ .Info | safeHTML }}</span>
             </li>
         {{ end }}
         

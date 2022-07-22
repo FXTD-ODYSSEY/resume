@@ -13,6 +13,9 @@ other = "Education"
 [skills]
 other = "Skills"
 
+[ability]
+other = "Ability"
+
 [languages]
 other = "Languages"
 

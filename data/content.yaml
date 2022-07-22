@@ -178,6 +178,13 @@ Links:
 #   - China CET-4 (2016)
 #   - China CET-6 (2017)
 
+# Interests:
+#   - <li class="contact__item" style="text-align:left"><i class="fa fa-music" aria-hidden="true"></i> Music</li>
+#   - <li class="contact__item" style="text-align:left"><i class="fa fa-street-view" aria-hidden="true"></i> Sport</li>
+#   - <li class="contact__item" style="text-align:left"><i class="fa fa-play-circle" aria-hidden="true"></i> Anim</li>
+#   - <li class="contact__item" style="text-align:left"><i class="fa fa-flask" aria-hidden="true"></i> Tech</li>
+
+
 Skills:
   - Family: Programming Language
     Items:
@@ -191,9 +198,3 @@ Skills:
       - Houdini
       - Blender
       - Photoshop
-      
-Interests:
-  - <li class="contact__item" style="text-align:left"><i class="fa fa-music" aria-hidden="true"></i> Music</li>
-  - <li class="contact__item" style="text-align:left"><i class="fa fa-street-view" aria-hidden="true"></i> Sport</li>
-  - <li class="contact__item" style="text-align:left"><i class="fa fa-play-circle" aria-hidden="true"></i> Anim</li>
-  - <li class="contact__item" style="text-align:left"><i class="fa fa-flask" aria-hidden="true"></i> Tech</li>

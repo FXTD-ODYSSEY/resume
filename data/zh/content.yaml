@@ -36,7 +36,7 @@ Experience:
           - 学习 rez 环境 ci 构建流程
           - mgear 绑定流程接入
         Badges: ["Python", "Maya", "流程开发", "Qt", "数字人"]
-      - Title: 魔方工作室 - 初级工具TA
+      - Title: 魔方工作室 - 中级工具TA
         Date: 2018-11 至 2021-09
         Details:
           - 基于 Pyblish 搭建 Maya Unreal 质检流程
@@ -59,15 +59,15 @@ Experience:
         Badges: ["Python", "Maya", "Qt", "流程开发"]
 
 
-Abilities:
-  - Info: <b>Pipeline 开发</b>
-  - Info: <b>Python Qt 界面开发</b>
-  - Info: <b>Unreal Python 开发</b>
-  - Info: <b>Maya Python 开发</b>
-  - Info: <b>Maya Rigging 开发</b>
-  - Info: Houdini 程序化
-  - Info: Shader 开发
-  - Info: Web 开发
+# Abilities:
+#   - Info: <b>Pipeline 开发</b>
+#   - Info: <b>Python Qt 界面开发</b>
+#   - Info: <b>Unreal Python 开发</b>
+#   - Info: <b>Maya Python 开发</b>
+#   - Info: <b>Maya Rigging 开发</b>
+#   - Info: Houdini 程序化
+#   - Info: Shader 开发
+#   - Info: Web 开发
   
 Links:
   - Icon: fa fa-desktop
@@ -76,6 +76,12 @@ Links:
     Info: 开源项目展示 <a href="https://github.com/FXTD-ODYSSEY" target="_blank">https://github.com/FXTD-ODYSSEY</a>
   - Icon: fa fa-globe
     Info: 博客 <a href="https://blog.l0v0.com" target="_blank">blog.l0v0.com</a>
+  - Icon: iconfont icon-bilibili
+    Style: "background:none"
+    Info: B站 <a href="https://space.bilibili.com/12895307" target="_blank">www.bilibili.com</a>
+  - Icon: iconfont icon-zhihu
+    Style: "background:none"
+    Info: 知乎 <a href="https://www.zhihu.com/people/zhi-shang-di-83-40" target="_blank">www.zhihu.com</a>
 
 # Projects:
 #   - Type: VScode
@@ -139,35 +145,42 @@ Links:
 
 
 
-# Techniques:
-#   - Name: <b>Python Qt 界面开发</b>
-#     Percent: 100%
-#     Handle: "精通"
-#   - Name: <b>Unreal Python 开发</b>
-#     Percent: 100%
-#     Handle: "精通"
-#   - Name: <b>Maya Python 开发</b>
-#     Percent: 100%
-#     Handle: "精通"
-#   - Name: <b>Maya Rigging 开发</b>
-#     Percent: 70%
-#     Handle: "掌握"
-#   - Name: <b>Maya C++ 开发</b>
-#     Percent: 70%
-#     Handle: "掌握"
-#   - Name: <b>Web 开发</b>
-#     Percent: 70%
-#     Handle: "掌握"
-#   - Name: <b>Shader 开发</b>
-#     Percent: 50%
-#     Handle: "一般"
-#   - Name: <b>Houdini</b>
-#     Percent: 50%
-#     Handle: "一般"
+Techniques:
+  - Name: <b>Python Qt 界面开发</b>
+    Percent: 100%
+    Handle: "精通"
+  - Name: <b>Unreal Python 开发</b>
+    Percent: 100%
+    Handle: "精通"
+  - Name: <b>Maya Python 开发</b>
+    Percent: 100%
+    Handle: "精通"
+  - Name: <b>Maya Rigging 开发</b>
+    Percent: 70%
+    Handle: "掌握"
+  - Name: <b>Maya C++ 开发</b>
+    Percent: 70%
+    Handle: "掌握"
+  - Name: <b>Web 开发</b>
+    Percent: 70%
+    Handle: "掌握"
+  - Name: <b>Shader 开发</b>
+    Percent: 50%
+    Handle: "一般"
+  - Name: <b>Houdini</b>
+    Percent: 50%
+    Handle: "一般"
 
-Diplomas:
-  - CET4 英语4级 (2016)
-  - CET6 英语6级 (2017)
+# Diplomas:
+#   - CET4 英语4级 (2016)
+#   - CET6 英语6级 (2017)
+
+# Interests:
+#   - <li class="contact__item" style="text-align:left"><i class="fa fa-music" aria-hidden="true"></i> 音乐</li>
+#   - <li class="contact__item" style="text-align:left"><i class="fa fa-street-view" aria-hidden="true"></i> 运动</li>
+#   - <li class="contact__item" style="text-align:left"><i class="fa fa-play-circle" aria-hidden="true"></i> 动漫</li>
+#   - <li class="contact__item" style="text-align:left"><i class="fa fa-flask" aria-hidden="true"></i> 技术</li>
+
 
 Skills:
   - Family: 编程语言
@@ -182,9 +195,3 @@ Skills:
       - Houdini
       - Blender
       - Photoshop
-      
-Interests:
-  - <li class="contact__item" style="text-align:left"><i class="fa fa-music" aria-hidden="true"></i> 音乐</li>
-  - <li class="contact__item" style="text-align:left"><i class="fa fa-street-view" aria-hidden="true"></i> 运动</li>
-  - <li class="contact__item" style="text-align:left"><i class="fa fa-play-circle" aria-hidden="true"></i> 动漫</li>
-  - <li class="contact__item" style="text-align:left"><i class="fa fa-flask" aria-hidden="true"></i> 技术</li>
