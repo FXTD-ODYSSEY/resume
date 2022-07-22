@@ -23,6 +23,7 @@
         {{ template "_internal/google_analytics.html" . }}
         {{ template "_internal/google_analytics_async.html" . }}
     {{- end -}}
+    <script src="https://cdn.jsdelivr.net/npm/js-base64@3.7.2/base64.min.js"></script>
 </head>
 {{$FirstName := .Site.Data.content.BasicInfo.FirstName}}
 {{$Domain := .Site.Data.content.BasicInfo.Domain}}

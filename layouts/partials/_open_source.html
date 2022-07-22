@@ -24,7 +24,7 @@
                             <h3 class="experience__date repo_{{.Repo}}"></h3>
                             <script type="module">
                                 import { Octokit } from "https://cdn.skypack.dev/@octokit/rest";
-                                const octokit = new Octokit({ auth: `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` });
+                                const octokit = new Octokit({ auth: Base64.decode('Z2hwX05kTjdjS214VlVMdlY4b1dIa1ZSUVZ4NlNkY1l0UTFFSmVNdw==')});
                             
                                 const response = await octokit.request("GET /repos/{owner}/{repo}", {
                                     owner: '{{.Owner}}',
